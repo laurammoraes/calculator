@@ -5,8 +5,11 @@ describe('App Component', () => {
   test('should saw a calculator layout', () => {
     const { getByLabelText } = render(<App />);
     expect(getByLabelText('calculatorLayout')).toHaveStyle({
-      
+      width: '300px',
+      height: '500px',
+      backgroundColor: 'black',
     })
-  })
-})
+  }); 
+}); 
+
  
