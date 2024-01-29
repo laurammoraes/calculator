@@ -8,6 +8,7 @@ describe('App Component', () => {
       width: '300px',
       height: '500px',
       backgroundColor: 'black',
+      borderRadius: '0% 0% 0% 0%'
     })
   }); 
 }); 
